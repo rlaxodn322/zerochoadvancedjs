@@ -4,12 +4,16 @@ function calculator(func, a, b){
     return func(a, b);
 }
 
-add(3, 5); // 8
+console.log(add(3, 5)); // 8
 
-calculator(add, 3, 5);
+console.log(calculator(add, 3, 5));
 
-const onClick = () => (event) => {
+// const onClick = () => (event) => {
+//     console.log('hello');
+// }
+
+const onClick = (event) => {
     console.log('hello');
 }
 
-document.querySelector('#header').addEventListener('click', onClick);
+//document.querySelector('#header').addEventListener('click', onClick);
