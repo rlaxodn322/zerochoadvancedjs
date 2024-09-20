@@ -1,8 +1,15 @@
+// const console = {
+//     log(){
+//         //콘솔에 글자 적는 기능
+//     }
+// }
+
 const x = 'x';
 
 function c(){
     const y= 'y';
     console.log('c');
+    debugger;
 }
 
 function a(){
