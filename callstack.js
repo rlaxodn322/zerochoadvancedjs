@@ -3,8 +3,13 @@
 //         //콘솔에 글자 적는 기능
 //     }
 // }
+//스택 , 큐 
+//스코프 체인 c - > anony a -> anony 
+// b -> c -> anony 
+// c 함수에서 b 호출 불가능 
 
 const x = 'x';
+
 
 function c(){
     const y= 'y';
